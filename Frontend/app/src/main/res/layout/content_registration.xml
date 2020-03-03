@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="8dp"
+    android:paddingLeft="8dp"
+
+    tools:context=".Activities.RegistrationActivity">
+
+    <TextView
+        android:id="@+id/titleRB"
+        android:layout_width="223dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Registration"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/first_name"
+        android:layout_width="366dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="First Name"
+        android:textSize="24dp"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
+        android:theme="@style/MyEditText" />
+
+    <EditText
+        android:id="@+id/last_name"
+        android:layout_width="366dp"
+        android:layout_height="60dp"
+        android:textSize="24dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
+        android:theme="@style/MyEditText" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="366dp"
+        android:layout_height="60dp"
+        android:textSize="24dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
+        android:theme="@style/MyEditText" />
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="366dp"
+        android:layout_height="60dp"
+        android:textSize="24dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
+        android:theme="@style/MyEditText" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="366dp"
+        android:layout_height="60dp"
+        android:textSize="24dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
+        android:theme="@style/MyEditText" />
+
+    <EditText
+        android:id="@+id/email_id"
+        android:layout_width="366dp"
+        android:layout_height="60dp"
+        android:textSize="24dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
+        android:theme="@style/MyEditText"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="Premium"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="203dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/login_button"
+        android:text="@string/action_register"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+
+
+</LinearLayout>
