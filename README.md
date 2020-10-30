@@ -1,4 +1,4 @@
-# ComS309-ReciptBox
+# ReciptBox
 
 Android application that captures receipt data from a user taking a photo of a receipt, organizes receipts, and helps user track spending. 
 
